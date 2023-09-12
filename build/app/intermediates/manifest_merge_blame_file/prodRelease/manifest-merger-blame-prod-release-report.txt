@@ -1,0 +1,696 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rpc.kreki119"
+4    android:versionCode="10301"
+5    android:versionName="1.3.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:6:5-81
+13-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:7:5-81
+14-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:8:5-80
+15-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:8:22-77
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:9:5-64
+16-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:9:22-62
+17    <uses-permission android:name="android.permission.GALLERY" />
+17-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:10:5-65
+17-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:10:22-63
+18
+19    <queries>
+19-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:82:5-98:15
+20
+21        <!-- If your app checks for SMS support -->
+22        <intent>
+22-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:84:9-87:18
+23            <action android:name="android.intent.action.VIEW" />
+23-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:85:13-65
+23-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:85:21-62
+24
+25            <data android:scheme="sms" />
+25-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:86:13-42
+25-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:86:19-39
+26        </intent>
+27        <!-- If your app checks for call support -->
+28        <intent>
+28-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:89:9-92:18
+29            <action android:name="android.intent.action.VIEW" />
+29-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:85:13-65
+29-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:85:21-62
+30
+31            <data android:scheme="tel" />
+31-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:86:13-42
+31-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:86:19-39
+32        </intent>
+33        <intent>
+33-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:93:9-97:18
+34            <action android:name="android.intent.action.VIEW" />
+34-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:85:13-65
+34-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:85:21-62
+35
+36            <category android:name="android.intent.category.BROWSABLE" />
+36-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:95:13-74
+36-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:95:23-71
+37
+38            <data android:scheme="https" />
+38-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:86:13-42
+38-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:86:19-39
+39        </intent>
+40        <!-- Needs to be explicitly declared on Android R+ -->
+41        <package android:name="com.google.android.apps.maps" />
+41-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d4a6b69be333fd4fb4f95da045101aee\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+41-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d4a6b69be333fd4fb4f95da045101aee\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+42    </queries>
+43
+44    <uses-permission android:name="android.permission.WAKE_LOCK" />
+44-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-68
+44-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:8:22-65
+45    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+45-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+45-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+46    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+46-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-77
+46-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-74
+47    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+47-->[:geolocator_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-77
+47-->[:geolocator_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:7:22-74
+48    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+48-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-81
+48-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:7:22-78
+49    <uses-permission android:name="android.permission.VIBRATE" />
+49-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-66
+49-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:8:22-63
+50    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+50-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+50-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+51    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+51-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-79
+51-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-76
+52
+53    <uses-feature
+53-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d4a6b69be333fd4fb4f95da045101aee\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+54        android:glEsVersion="0x00020000"
+54-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d4a6b69be333fd4fb4f95da045101aee\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+55        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+55-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d4a6b69be333fd4fb4f95da045101aee\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+56    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+56-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\a524282516ebfdae6fe5ae57cf4abe63\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:28:5-82
+56-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\a524282516ebfdae6fe5ae57cf4abe63\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:28:22-79
+57    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+57-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\024970d903f29247b5a29d2bfbcd692c\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:25:5-79
+57-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\024970d903f29247b5a29d2bfbcd692c\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:25:22-76
+58    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+58-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:26:5-110
+58-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:26:22-107
+59
+60    <permission
+60-->[androidx.core:core:1.9.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\30c436b8113805c0d6ab05245ad612a4\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+61        android:name="com.rpc.kreki119.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+61-->[androidx.core:core:1.9.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\30c436b8113805c0d6ab05245ad612a4\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+62        android:protectionLevel="signature" />
+62-->[androidx.core:core:1.9.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\30c436b8113805c0d6ab05245ad612a4\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+63
+64    <uses-permission android:name="com.rpc.kreki119.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+64-->[androidx.core:core:1.9.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\30c436b8113805c0d6ab05245ad612a4\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+64-->[androidx.core:core:1.9.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\30c436b8113805c0d6ab05245ad612a4\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+65
+66    <application
+66-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:13:4-81:19
+67        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+67-->[androidx.core:core:1.9.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\30c436b8113805c0d6ab05245ad612a4\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+68        android:icon="@mipmap/ic_launcher"
+68-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:15:9-43
+69        android:label="kreki-119" >
+69-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:14:9-34
+70        <meta-data
+70-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:17:9-18:69
+71            android:name="com.google.android.geo.API_KEY"
+71-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:17:20-65
+72            android:value="AIzaSyC-mEp034Q8gpYB0sUccnqGnjcvD-6Ky8U" />
+72-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:18:12-67
+73        <meta-data
+73-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:20:8-22:40
+74            android:name="com.google.firebase.messaging.default_notification_channel_id"
+74-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:21:12-88
+75            android:value="ChannelId" />
+75-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:22:12-37
+76
+77        <activity
+77-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:24:9-73:20
+78            android:name="com.rpc.kreki119.MainActivity"
+78-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:25:13-41
+79            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+79-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:30:13-163
+80            android:exported="true"
+80-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:28:13-36
+81            android:hardwareAccelerated="true"
+81-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:31:13-47
+82            android:launchMode="singleTop"
+82-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:26:13-43
+83            android:requestLegacyExternalStorage="true"
+83-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:27:13-56
+84            android:showWhenLocked="true"
+84-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:32:13-42
+85            android:theme="@style/LaunchTheme"
+85-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:29:13-47
+86            android:turnScreenOn="true"
+86-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:33:13-40
+87            android:windowSoftInputMode="adjustResize" >
+87-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:34:13-55
+88
+89            <!--
+90                 Specifies an Android theme to apply to this Activity as soon as
+91                 the Android process has started. This theme is visible to the user
+92                 while the Flutter UI initializes. After that, this theme continues
+93                 to determine the Window background behind the Flutter UI.
+94            -->
+95            <meta-data
+95-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:39:13-42:17
+96                android:name="io.flutter.embedding.android.NormalTheme"
+96-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:40:15-70
+97                android:resource="@style/NormalTheme" />
+97-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:41:15-52
+98            <!--
+99                 Displays an Android View that continues showing the launch screen
+100                 Drawable until Flutter paints its first frame, then this splash
+101                 screen fades out. A splash screen is useful to avoid any visual
+102                 gap between the end of Android's launch screen and the painting of
+103                 Flutter's first frame.
+104            -->
+105            <meta-data
+105-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:48:13-51:17
+106                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+106-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:49:15-79
+107                android:resource="@drawable/launch_background" />
+107-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:50:15-61
+108
+109            <intent-filter>
+109-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:52:13-55:29
+110                <action android:name="android.intent.action.MAIN" />
+110-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:53:17-68
+110-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:53:25-66
+111
+112                <category android:name="android.intent.category.LAUNCHER" />
+112-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:54:17-76
+112-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:54:27-74
+113            </intent-filter>
+114            <!--
+115            fcm setup firebase  for more info check this link
+116            https://firebase.google.com/docs/cloud-messaging/flutter/client
+117            -->
+118            <meta-data
+118-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:58:13-60:41
+119                android:name="firebase_messaging_auto_init_enabled"
+119-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:59:17-68
+120                android:value="false" />
+120-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:60:17-38
+121            <meta-data
+121-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:61:13-63:41
+122                android:name="firebase_analytics_collection_enabled"
+122-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:62:17-69
+123                android:value="false" />
+123-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:63:17-38
+124            <meta-data
+124-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:20:8-22:40
+125                android:name="com.google.firebase.messaging.default_notification_channel_id"
+125-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:21:12-88
+126                android:value="ChannelId" />
+126-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:22:12-37
+127
+128            <intent-filter>
+128-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:67:13-70:29
+129                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+129-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:68:17-69
+129-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:68:25-66
+130
+131                <category android:name="android.intent.category.DEFAULT" />
+131-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:69:17-76
+131-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:69:27-73
+132            </intent-filter>
+133        </activity>
+134        <!--
+135             Don't delete the meta-data below.
+136             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+137        -->
+138        <meta-data
+138-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:76:9-78:33
+139            android:name="flutterEmbedding"
+139-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:77:13-44
+140            android:value="2" />
+140-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:78:13-30
+141
+142        <service
+142-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-17:72
+143            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+143-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-107
+144            android:exported="false"
+144-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-37
+145            android:permission="android.permission.BIND_JOB_SERVICE" />
+145-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-69
+146        <service
+146-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-24:19
+147            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+147-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-97
+148            android:exported="false" >
+148-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-37
+149            <intent-filter>
+149-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-23:29
+150                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+150-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:17-78
+150-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:25-75
+151            </intent-filter>
+152        </service>
+153
+154        <receiver
+154-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-33:20
+155            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+155-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-98
+156            android:exported="true"
+156-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-36
+157            android:permission="com.google.android.c2dm.permission.SEND" >
+157-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-73
+158            <intent-filter>
+158-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-32:29
+159                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+159-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-81
+159-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-78
+160            </intent-filter>
+161        </receiver>
+162
+163        <service
+163-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:35:9-39:19
+164            android:name="com.google.firebase.components.ComponentDiscoveryService"
+164-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:35:18-89
+165            android:directBootAware="true"
+165-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\640f8d4f88fb47cd9319c9aa82c22d26\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+166            android:exported="false" >
+166-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:68:13-37
+167            <meta-data
+167-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-38:85
+168                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+168-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:37:17-128
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:38:17-82
+170            <meta-data
+170-->[:firebase_analytics] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-15:85
+171                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+171-->[:firebase_analytics] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:14:17-128
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[:firebase_analytics] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-82
+173            <meta-data
+173-->[:firebase_auth] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-11:85
+174                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+174-->[:firebase_auth] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:17-124
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[:firebase_auth] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:17-82
+176            <meta-data
+176-->[:firebase_storage] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-11:85
+177                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+177-->[:firebase_storage] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:10:17-126
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[:firebase_storage] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_storage\intermediates\merged_manifest\release\AndroidManifest.xml:11:17-82
+179            <meta-data
+179-->[:firebase_core] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-11:85
+180                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+180-->[:firebase_core] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:10:17-124
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[:firebase_core] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:17-82
+182            <meta-data
+182-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:69:13-71:85
+183                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+183-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:70:17-109
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:71:17-82
+185            <meta-data
+185-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\a524282516ebfdae6fe5ae57cf4abe63\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+186                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+186-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\a524282516ebfdae6fe5ae57cf4abe63\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+187                android:value="com.google.firebase.components.ComponentRegistrar" />
+187-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\a524282516ebfdae6fe5ae57cf4abe63\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+188            <meta-data
+188-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\12efdf390c03fd531972ff9beb18abb6\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+189                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+189-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\12efdf390c03fd531972ff9beb18abb6\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+190                android:value="com.google.firebase.components.ComponentRegistrar" />
+190-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\12efdf390c03fd531972ff9beb18abb6\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+191            <meta-data
+191-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\2094355e8a0fa2976977ecc6473c2ab0\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+192                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+192-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\2094355e8a0fa2976977ecc6473c2ab0\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+193                android:value="com.google.firebase.components.ComponentRegistrar" />
+193-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\2094355e8a0fa2976977ecc6473c2ab0\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+194            <meta-data
+194-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\024970d903f29247b5a29d2bfbcd692c\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:31:13-33:85
+195                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+195-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\024970d903f29247b5a29d2bfbcd692c\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:32:17-139
+196                android:value="com.google.firebase.components.ComponentRegistrar" />
+196-->[com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\024970d903f29247b5a29d2bfbcd692c\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:33:17-82
+197            <meta-data
+197-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\ade.iskandar\.gradle\caches\transforms-3\1c8e3af4d28f6ed3c8864d031d2e31ed\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+198                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+198-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\ade.iskandar\.gradle\caches\transforms-3\1c8e3af4d28f6ed3c8864d031d2e31ed\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+199                android:value="com.google.firebase.components.ComponentRegistrar" />
+199-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\ade.iskandar\.gradle\caches\transforms-3\1c8e3af4d28f6ed3c8864d031d2e31ed\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+200            <meta-data
+200-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\ade.iskandar\.gradle\caches\transforms-3\97f8672a0a34df206ad6b76e1a2f045a\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+201                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+201-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\ade.iskandar\.gradle\caches\transforms-3\97f8672a0a34df206ad6b76e1a2f045a\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+202                android:value="com.google.firebase.components.ComponentRegistrar" />
+202-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\ade.iskandar\.gradle\caches\transforms-3\97f8672a0a34df206ad6b76e1a2f045a\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+203        </service>
+204
+205        <provider
+205-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:41:9-45:38
+206            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+206-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-102
+207            android:authorities="com.rpc.kreki119.flutterfirebasemessaginginitprovider"
+207-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-88
+208            android:exported="false"
+208-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-37
+209            android:initOrder="99" />
+209-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-35
+210
+211        <service
+211-->[:geolocator_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:56
+212            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+212-->[:geolocator_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
+213            android:enabled="true"
+213-->[:geolocator_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-35
+214            android:exported="false"
+214-->[:geolocator_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+215            android:foregroundServiceType="location" />
+215-->[:geolocator_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-53
+216
+217        <receiver
+217-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-16:40
+218            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+218-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-91
+219            android:exported="false" />
+219-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-37
+220        <receiver
+220-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-19:40
+221            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+221-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-97
+222            android:exported="false" />
+222-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-37
+223        <receiver
+223-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-29:20
+224            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+224-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-101
+225            android:exported="false" >
+225-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-37
+226            <intent-filter>
+226-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-28:29
+227                <action android:name="android.intent.action.BOOT_COMPLETED" />
+227-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-79
+227-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-76
+228                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+228-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:17-84
+228-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:25-81
+229                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+229-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:17-82
+229-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:25-79
+230                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+230-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:17-82
+230-->[:flutter_local_notifications] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:25-79
+231            </intent-filter>
+232        </receiver>
+233
+234        <provider
+234-->[:image_picker_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-16:20
+235            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+235-->[:image_picker_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-82
+236            android:authorities="com.rpc.kreki119.flutter.image_provider"
+236-->[:image_picker_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-74
+237            android:exported="false"
+237-->[:image_picker_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-37
+238            android:grantUriPermissions="true" >
+238-->[:image_picker_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-47
+239            <meta-data
+239-->[:image_picker_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-15:75
+240                android:name="android.support.FILE_PROVIDER_PATHS"
+240-->[:image_picker_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:17-67
+241                android:resource="@xml/flutter_image_picker_file_paths" />
+241-->[:image_picker_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-72
+242        </provider>
+243
+244        <activity
+244-->[:url_launcher_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-11:74
+245            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+245-->[:url_launcher_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-74
+246            android:exported="false"
+246-->[:url_launcher_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-37
+247            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+247-->[:url_launcher_android] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-71
+248
+249        <uses-library
+249-->[androidx.window:window:1.0.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d22d35b67e62148a6aa322f1020360df\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+250            android:name="androidx.window.extensions"
+250-->[androidx.window:window:1.0.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d22d35b67e62148a6aa322f1020360df\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+251            android:required="false" />
+251-->[androidx.window:window:1.0.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d22d35b67e62148a6aa322f1020360df\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+252        <uses-library
+252-->[androidx.window:window:1.0.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d22d35b67e62148a6aa322f1020360df\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+253            android:name="androidx.window.sidecar"
+253-->[androidx.window:window:1.0.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d22d35b67e62148a6aa322f1020360df\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+254            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+254-->[androidx.window:window:1.0.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d22d35b67e62148a6aa322f1020360df\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+255        <uses-library
+255-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d4a6b69be333fd4fb4f95da045101aee\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+256            android:name="org.apache.http.legacy"
+256-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d4a6b69be333fd4fb4f95da045101aee\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+257            android:required="false" />
+257-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d4a6b69be333fd4fb4f95da045101aee\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+258
+259        <activity
+259-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\719fc04e2d9a533965b2bdd39d8bde52\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:23:9-27:75
+260            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+260-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\719fc04e2d9a533965b2bdd39d8bde52\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:24:13-93
+261            android:excludeFromRecents="true"
+261-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\719fc04e2d9a533965b2bdd39d8bde52\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:25:13-46
+262            android:exported="false"
+262-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\719fc04e2d9a533965b2bdd39d8bde52\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:26:13-37
+263            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+263-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\719fc04e2d9a533965b2bdd39d8bde52\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:27:13-72
+264        <!--
+265            Service handling Google Sign-In user revocation. For apps that do not integrate with
+266            Google Sign-In, this service will never be started.
+267        -->
+268        <service
+268-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\719fc04e2d9a533965b2bdd39d8bde52\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:33:9-37:51
+269            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+269-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\719fc04e2d9a533965b2bdd39d8bde52\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:34:13-89
+270            android:exported="true"
+270-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\719fc04e2d9a533965b2bdd39d8bde52\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:35:13-36
+271            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+271-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\719fc04e2d9a533965b2bdd39d8bde52\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:36:13-107
+272            android:visibleToInstantApps="true" />
+272-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\719fc04e2d9a533965b2bdd39d8bde52\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:37:13-48
+273
+274        <activity
+274-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:29:9-46:20
+275            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+275-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:30:13-80
+276            android:excludeFromRecents="true"
+276-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:31:13-46
+277            android:exported="true"
+277-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:32:13-36
+278            android:launchMode="singleTask"
+278-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:33:13-44
+279            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+279-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:34:13-72
+280            <intent-filter>
+280-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:35:13-45:29
+281                <action android:name="android.intent.action.VIEW" />
+281-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:85:13-65
+281-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:85:21-62
+282
+283                <category android:name="android.intent.category.DEFAULT" />
+283-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:69:17-76
+283-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:69:27-73
+284                <category android:name="android.intent.category.BROWSABLE" />
+284-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:95:13-74
+284-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:95:23-71
+285
+286                <data
+286-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:86:13-42
+287                    android:host="firebase.auth"
+288                    android:path="/"
+289                    android:scheme="genericidp" />
+289-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:86:19-39
+290            </intent-filter>
+291        </activity>
+292        <activity
+292-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:47:9-64:20
+293            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+293-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:48:13-79
+294            android:excludeFromRecents="true"
+294-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:49:13-46
+295            android:exported="true"
+295-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:50:13-36
+296            android:launchMode="singleTask"
+296-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:51:13-44
+297            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+297-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:52:13-72
+298            <intent-filter>
+298-->[com.google.firebase:firebase-auth:21.2.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\4c9e700ff7777442af3efd28f3697fe3\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:53:13-63:29
+299                <action android:name="android.intent.action.VIEW" />
+299-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:85:13-65
+299-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:85:21-62
+300
+301                <category android:name="android.intent.category.DEFAULT" />
+301-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:69:17-76
+301-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:69:27-73
+302                <category android:name="android.intent.category.BROWSABLE" />
+302-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:95:13-74
+302-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:95:23-71
+303
+304                <data
+304-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:86:13-42
+305                    android:host="firebase.auth"
+306                    android:path="/"
+307                    android:scheme="recaptcha" />
+307-->C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\android\app\src\main\AndroidManifest.xml:86:19-39
+308            </intent-filter>
+309        </activity>
+310
+311        <receiver
+311-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\a524282516ebfdae6fe5ae57cf4abe63\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+312            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+312-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\a524282516ebfdae6fe5ae57cf4abe63\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+313            android:exported="true"
+313-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\a524282516ebfdae6fe5ae57cf4abe63\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+314            android:permission="com.google.android.c2dm.permission.SEND" >
+314-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\a524282516ebfdae6fe5ae57cf4abe63\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+315            <intent-filter>
+315-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-32:29
+316                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+316-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-81
+316-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-78
+317            </intent-filter>
+318        </receiver>
+319        <!--
+320             FirebaseMessagingService performs security checks at runtime,
+321             but set to not exported to explicitly avoid allowing another app to call it.
+322        -->
+323        <service
+323-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\a524282516ebfdae6fe5ae57cf4abe63\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+324            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+324-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\a524282516ebfdae6fe5ae57cf4abe63\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+325            android:directBootAware="true"
+325-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\a524282516ebfdae6fe5ae57cf4abe63\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+326            android:exported="false" >
+326-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\a524282516ebfdae6fe5ae57cf4abe63\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+327            <intent-filter android:priority="-500" >
+327-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-23:29
+328                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+328-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:17-78
+328-->[:firebase_messaging] C:\Users\ade.iskandar\Downloads\tmpDwl\kreki_119_mobile\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:25-75
+329            </intent-filter>
+330        </service>
+331
+332        <activity
+332-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d8f87599f8afbad6488ca0314fd5b0da\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+333            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+333-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d8f87599f8afbad6488ca0314fd5b0da\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+334            android:exported="false"
+334-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d8f87599f8afbad6488ca0314fd5b0da\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+335            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+335-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\d8f87599f8afbad6488ca0314fd5b0da\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+336
+337        <provider
+337-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\640f8d4f88fb47cd9319c9aa82c22d26\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+338            android:name="com.google.firebase.provider.FirebaseInitProvider"
+338-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\640f8d4f88fb47cd9319c9aa82c22d26\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+339            android:authorities="com.rpc.kreki119.firebaseinitprovider"
+339-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\640f8d4f88fb47cd9319c9aa82c22d26\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+340            android:directBootAware="true"
+340-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\640f8d4f88fb47cd9319c9aa82c22d26\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+341            android:exported="false"
+341-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\640f8d4f88fb47cd9319c9aa82c22d26\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+342            android:initOrder="100" />
+342-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ade.iskandar\.gradle\caches\transforms-3\640f8d4f88fb47cd9319c9aa82c22d26\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+343
+344        <receiver
+344-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:29:9-33:20
+345            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+345-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:30:13-85
+346            android:enabled="true"
+346-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:31:13-35
+347            android:exported="false" >
+347-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:32:13-37
+348        </receiver>
+349
+350        <service
+350-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:35:9-38:40
+351            android:name="com.google.android.gms.measurement.AppMeasurementService"
+351-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:36:13-84
+352            android:enabled="true"
+352-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:37:13-35
+353            android:exported="false" />
+353-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:38:13-37
+354        <service
+354-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:39:9-43:72
+355            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+355-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:40:13-87
+356            android:enabled="true"
+356-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:41:13-35
+357            android:exported="false"
+357-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:42:13-37
+358            android:permission="android.permission.BIND_JOB_SERVICE" />
+358-->[com.google.android.gms:play-services-measurement:21.2.1] C:\Users\ade.iskandar\.gradle\caches\transforms-3\659fc0188db64d31edfc84c8ca0d27fa\transformed\jetified-play-services-measurement-21.2.1\AndroidManifest.xml:43:13-69
+359
+360        <meta-data
+360-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\2fb698e19567c92aa6e00fe83a22855b\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+361            android:name="com.google.android.gms.version"
+361-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\2fb698e19567c92aa6e00fe83a22855b\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+362            android:value="@integer/google_play_services_version" />
+362-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ade.iskandar\.gradle\caches\transforms-3\2fb698e19567c92aa6e00fe83a22855b\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+363
+364        <service
+364-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ade.iskandar\.gradle\caches\transforms-3\ba5dacc6534a341fdc685bd961b2f406\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+365            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+365-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ade.iskandar\.gradle\caches\transforms-3\ba5dacc6534a341fdc685bd961b2f406\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+366            android:exported="false" >
+366-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ade.iskandar\.gradle\caches\transforms-3\ba5dacc6534a341fdc685bd961b2f406\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+367            <meta-data
+367-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ade.iskandar\.gradle\caches\transforms-3\ba5dacc6534a341fdc685bd961b2f406\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+368                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+368-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ade.iskandar\.gradle\caches\transforms-3\ba5dacc6534a341fdc685bd961b2f406\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+369                android:value="cct" />
+369-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ade.iskandar\.gradle\caches\transforms-3\ba5dacc6534a341fdc685bd961b2f406\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+370        </service>
+371        <service
+371-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ade.iskandar\.gradle\caches\transforms-3\6126b883a11096c0d685a83f2abc79ca\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+372            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+372-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ade.iskandar\.gradle\caches\transforms-3\6126b883a11096c0d685a83f2abc79ca\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+373            android:exported="false"
+373-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ade.iskandar\.gradle\caches\transforms-3\6126b883a11096c0d685a83f2abc79ca\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+374            android:permission="android.permission.BIND_JOB_SERVICE" >
+374-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ade.iskandar\.gradle\caches\transforms-3\6126b883a11096c0d685a83f2abc79ca\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+375        </service>
+376
+377        <receiver
+377-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ade.iskandar\.gradle\caches\transforms-3\6126b883a11096c0d685a83f2abc79ca\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+378            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+378-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ade.iskandar\.gradle\caches\transforms-3\6126b883a11096c0d685a83f2abc79ca\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+379            android:exported="false" />
+379-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ade.iskandar\.gradle\caches\transforms-3\6126b883a11096c0d685a83f2abc79ca\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+380    </application>
+381
+382</manifest>
